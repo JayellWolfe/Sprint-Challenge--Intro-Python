@@ -38,7 +38,7 @@ def cityreader(cities=[]):
             lat = float(row[3])
             lon = float(row[4])
             cities.append(City(name,lat,lon))
-    return cities
+     return cities
 
 cityreader(cities)
 
