@@ -3,7 +3,7 @@
 import csv
 
 class City:
-  def __init__ (self, lat, lot):
+  def __init__ (self, name, lat, lot):
     self.name = name
     self.lat = lat
     self.lon = lon
@@ -29,6 +29,7 @@ def cityreader(cities=[]):
   # TODO Implement the functionality to read from the 'cities.csv' file
   # For each city record, create a new City instance and add it to the 
   # `cities` list
+  
      with open('./cities.csv', newline='') as citiescsv:
         citiesreader = csv.reader(citiescsv)
         next(citiesreader)
