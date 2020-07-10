@@ -21,7 +21,7 @@ class Vehicle:
   #This is the bottom of the bases for all classes
   pass
 
-class FlightVehcile(Vehicle):
+class FlightVehicle(Vehicle):
   #Vehicle is the base class 
   pass
 
